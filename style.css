@@ -1,0 +1,139 @@
+html{
+    background-color: black;
+    margin: 0px;
+    /* font-family: 'Lexend Deca', sans-serif;
+font-family: 'Poppins', sans-serif; */
+font-family: 'Press Start 2P', sans-serif;
+color: rgb(0, 255, 0);
+}
+*{
+    box-sizing: border-box;
+}
+.head{
+
+    border: 1px solid rgb(255, 0, 0);
+    text-align: center;
+    box-shadow: 20px 20px 0px rgb(255, 0, 0);
+    margin-bottom: 20px;
+    width: 500px;
+    height: 200px;
+    margin: auto;
+
+    /* margin-left: 40px; */
+}
+h1{
+    font-size: 70px;
+}
+form{
+    font-size: smaller;
+    /* border: 2px solid blue; */
+    margin: auto;
+    /* padding-left: 40%; */
+    width: 600px;
+    /* box-shadow: 20px 20px 0px blue; */
+    margin-top: 60px;
+}
+.skillsList{
+    margin-left: 100px;
+}
+.genderList{
+    margin-left: 100px;
+}
+input{
+ font-family: 'Press Start 2P', cursive;
+color: yellow;
+background-color: black;
+border: none;
+height: 25x;
+
+}
+select{
+    
+    font-family: 'Press Start 2P', cursive;
+    color: yellow;
+    background-color: black;
+   
+}
+form >div{ /*important*/
+    border: 2px solid blue;
+    box-shadow: 6px 6px blue;
+    padding : 10px;
+    margin: 25px 0px 25px 15px;
+    width: 500px;
+}
+textarea{
+    font-family: 'Press Start 2P', cursive;
+    color: yellow;
+    background-color: black;
+}
+
+input:focus{ 
+    outline: none;
+}
+textarea:focus{
+    outline:none;
+}
+select:focus{
+    outline:none;
+}
+#sub{
+background-color: yellow;
+color: red;
+height: 25px;
+font-size: large;
+width: 119px;
+margin-left: 26px;
+margin-top:-10px; 
+display: inline;
+
+}
+#res{
+    background-color: yellow;
+    color: red;
+    height: 25px;
+    font-size: large;
+    width: 119px;
+     margin-left: 221px; 
+    margin-top:-10px;  
+
+}
+.btns{
+    margin-top: 40px;
+}
+option{
+    /*  */
+    color: yellow;
+    background-color: black;
+}
+datalist{
+    font-family: 'Press Start 2P', cursive;
+}
+#sub:hover{
+    background-color: green;
+    color: yellow;
+    /* width: 132px; */
+    font-size: large;
+    box-shadow: 2px 2px white;
+}
+#res:hover{
+    background-color: red;
+    color: yellow;
+    height: 25px;
+    font-size: large;
+    box-shadow: 2px 2px white;
+}
+#sub:active{
+    background-color: blue;
+    color: red;
+    height: 24px;
+    font-size: large;
+    width: 117px;
+}
+
+#res:active{
+    background-color: blue;
+    color: rgb(0, 255, 0);
+    height: 24px;
+    font-size: large;
+    width: 117px;
+}

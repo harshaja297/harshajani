@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>harshavardhanjani297@gmail.com</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;300;400;800;900&family=Poppins:wght@200;400;500;600;700;800;900&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class = "head">
+      <h1>FILL IN FORM</h1>
+    </div>
+    <form action="#" method="get" autocomplete="off">
+        <div class= "name">
+            <label for="name">Name : </label>
+            {<input type="text" name="name" id="name" />}
+            <br />
+        </div>
+        <div class = "em">
+            <label for="email">E-Mail : </label>
+            { <input type="email" id="email" name="email" />}
+            <br />
+        </div>
+
+        <div class = "pass">
+            <label for="pwd">Password : </label>
+            {<input type="password" name="pwd" id="pwd" />}
+            <br />
+        </div>
+        <div class = "mob">
+            <label for="mobile">Mobile : </label>
+            {<input
+              type="tel"
+              name="mobile"
+              id="mobile"
+              maxlength="10"
+              minlength="10"
+            />}
+            <br />
+        </div>
+        <div class ="ad">
+            <label id="ta" for="add">Address : </label>
+            <textarea name="add" id="add" cols="30" rows="10"></textarea>
+            <br />
+        </div>
+        <div class = "dob">
+            <label for="dob">DateOfBirth : </label>
+            <input type="date" name="dob" id="dob" />
+            <br />
+        </div>
+        <div class = "age">
+            <label for="age">Age : </label>
+            {<input type="number" name="age" id="age" min="20" max="80" />}
+            <br />
+        </div>
+      <div class = gender>
+          <label for="gen">Gender : </label><br>
+          <div class = "genderList">
+    
+              {<input type="radio" name="gen" id="gen" />male} <br>
+              {<input type="radio" name="gen" id="gen" />female}<br> {<input
+                type="radio"
+                name="gen"
+                id="gen"
+              />transgender}<br> {<input type="radio" name="gen" id="gen" />gender neutral}<br>
+              {<input type="radio" name="gen" id="gen" />non-binary}<br> {<input
+                type="radio"
+                name="gen"
+                id="gen"
+              />agender}<br> {<input type="radio" name="gen" id="gen" />pangender}<br> {<input
+                type="radio"
+                name="gen"
+                id="gen"
+              />genderqueer}<br> {<input type="radio" name="gen" id="gen" />two-spirit} <br>
+              {<input type="radio" name="gen" id="gen" />third gender} <br>{<input
+                type="radio"
+                name="gen"
+                id="gen"
+              />all of these}<br> {<input type="radio" name="gen" id="gen" />none of these}
+              <br />
+          </div>
+      </div>
+      <div class = "skills">
+          <label for="skl">Skills : </label><br>
+          <div class = "skillsList">
+            {<input type="checkbox" name="skl" id="skl" />Java}<br>
+              {<input type="checkbox" name="skl" id="skl" />SQL}<br>
+              {<input type="checkbox" name="skl" id="skl" />WebTech}<br>
+              {<input type="checkbox" name="skl" id="skl" />AdvancedJava}<br>
+              {<input type="checkbox" name="skl" id="skl" />Frameworks}<br>
+              <br />
+          </div>
+      </div>
+      <div class ="bg">
+
+          <label for="bld" multiple>Blood : </label>
+          <select name="bld" id="bld">
+            <option value="AB positive">AB positive</option>
+            <option value="O Negative">O Negative</option>
+            <option value="Type O">Type O</option>
+            <option value="AB negative">AB negative</option>
+            <option value="B negative">B negative</option>
+            <option value="B Positive">B Positive</option>
+            <option value="O positive">O positive</option>
+            <option value="Type AB">Type AB</option>
+            <option value="Type B">Type B</option>
+            <option value="Rh blood group system">Rh blood group system</option>
+          </select>
+          <br />
+      </div>
+      <div class = "coun">
+          <label for="cty">Country : </label>
+          <input list="list" name="cty" id="cty" />
+          <datalist id="list">
+            <option value="Genovia">Genovia</option>
+            <option value="Wakanda">Wakanda</option>
+            <option value="Freedonia">Freedonia</option>
+            <option value="Florin">Florin</option>
+            <option value="Zubrowka">Zubrowka</option>
+            <option value="Oceania">Oceania</option>
+            <option value="Lilliput">Lilliput</option>
+            <option value="Gilead">Gilead</option>
+            <option value="Narnia">Narnia</option>
+            <option value="Gondor">Gondor</option>
+            <option value="Agrabah">Agrabah</option>
+          </datalist>
+          <br />
+      </div>
+      <section class  = "btns">
+          <input type="submit" name="sub" id="sub" />
+          <input type="reset" name="res" id="res" />
+      </section>
+      <br><br><br>
+    </form>
+  </body>
+</html>
+<!-- 
+
+ -->
